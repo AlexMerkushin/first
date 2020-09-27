@@ -1,0 +1,30 @@
+{
+  "name": "mahat",
+  "author": "sagiv bonali",
+  "version": "1.0.0",
+  "description": "פרויקט גמר - הגשת פרויקטים מהט",
+  "short_name": "מה\"ט",
+  "private": true,
+  
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "nuxt": "^2.14.0",
+    "nuxt-sweetalert2": "^1.0.0",
+    "vue-swal": "^1.0.0",
+    "vue-sweetalert2": "^3.0.6",
+    "vue2-google-maps": "^0.10.7"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}
